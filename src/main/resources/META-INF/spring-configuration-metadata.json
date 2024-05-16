@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "spring.web.encrypt",
+      "type": "com.github.codert96.web.bean.WebEncryptProperties",
+      "sourceType": "com.github.codert96.web.bean.WebEncryptProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.web.encrypt.enable",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.github.codert96.web.bean.WebEncryptProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "spring.web.encrypt.encryptor",
+      "type": "java.lang.Class<? extends com.github.codert96.web.core.Encryptor>",
+      "sourceType": "com.github.codert96.web.bean.WebEncryptProperties"
+    }
+  ],
+  "hints": []
+}
