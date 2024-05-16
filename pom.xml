@@ -8,6 +8,12 @@
     <artifactId>spring-boot-starter-encrypt-web</artifactId>
     <version>1.0.0</version>
     <url>https://github.com/codert96/spring-boot-starter-encrypt-web</url>
+    <description>
+        The data returned by the API is encrypted.
+        AES and SM4 encryption are provided by default.
+        AES iv is the middle 16 bit of key.
+        SM4 iv is the reverse the key.
+    </description>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
